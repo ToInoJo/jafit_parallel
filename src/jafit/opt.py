@@ -134,6 +134,8 @@ def fit_global(
             maxiter=10**6,
             tol=tolerance or 0.005,
             callback=cb,
+            workers = -1,
+            updating = "deferred",
         )
     _logger.info("Global optimization result:\n%s", res)
     # We have to check is_done because an early stop is considered an error by the optimizer (strange but true).
