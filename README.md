@@ -1,3 +1,5 @@
+This is a fork of a repository by Zubax (https://github.com/Zubax/jafit/tree/main) with modified optimizer values for running evaluation in parallel.
+
 # jafit
 
 [![Discuss - on Zubax Forum](https://img.shields.io/static/v1?label=Discuss&message=on+Zubax+Forum&color=ff0000)](https://forum.zubax.com)
